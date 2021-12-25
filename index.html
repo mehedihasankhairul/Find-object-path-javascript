@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Path find</title>
-</head>
-<body>
-      Path Find 
-    
-<script src="./findData.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assests/style.css" />
+    <title>Path find</title>
+  </head>
+  <body>
+    <section class="mainPage">
+      <h3 class="header-text">Input your Value from Images to find your path</h3>
+      <div class="imgSection">
+        <img src="./assests/pathFind.png" alt="" />
+      </div>
+      <div class="result">
+        <h4>Your Path is</h4>
+        <p id="path"></p>
+      </div>
+      <!-- Input Section -->
+
+      <div class="inputSection">
+        <input id="input" type="text" placeholder="Input Your Target Value" />
+        <button id="button" class="btn">Find Path</button>
+      </div>
+    </section>
+
+    <script src="./findData.js"></script>
+  </body>
 </html>
